@@ -19,6 +19,8 @@ Here are some ideas to get you started:
 
 <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Stardust011&layout=compact">
 
+---------------
+
 ### 技术栈
 ​
 ![Python](https://img.shields.io/badge/-Python-192133?style=flat-square&logo=python&logoColor=white)
