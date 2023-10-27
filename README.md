@@ -29,3 +29,7 @@ Here are some ideas to get you started:
 ![OpenCV](https://img.shields.io/badge/-OpenCV-192133?style=flat-square&logo=opencv&logoColor=white)
 ![Vue.JS](https://img.shields.io/badge/-Vue.JS-192133?style=flat-square&logo=vuedotjs&logoColor=white)
 ![Ant Design](https://img.shields.io/badge/-Ant_Design-192133?style=flat-square&logo=antdesign&logoColor=white)
+![.NET](https://img.shields.io/badge/-dotnet-192133?style=flat-square&logo=antdesign&logoColor=white)
+![C#](https://img.shields.io/badge/-csharp-192133?style=flat-square&logo=antdesign&logoColor=white)
+![Go](https://img.shields.io/badge/-go-192133?style=flat-square&logo=antdesign&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-mongodb-192133?style=flat-square&logo=antdesign&logoColor=white)
