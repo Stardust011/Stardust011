@@ -1,0 +1,7 @@
+# local preview / agent workspace
+.workbuddy/
+
+# os
+.DS_Store
+Thumbs.db
+desktop.ini

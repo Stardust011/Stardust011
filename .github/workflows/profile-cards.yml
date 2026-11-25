@@ -1,0 +1,36 @@
+name: Profile cards
+
+# 仅定时 + 手动触发
+on:
+  schedule:
+    # 00:30 UTC = 08:30 Asia/Shanghai
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      # 只生成一个主题，避免 16 个主题目录各写一份
+      # 用户级数据仍需 PAT，仓库级 GITHUB_TOKEN 读不到
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_CARDS_TOKEN }}
+        with:
+          USERNAME: Stardust011
+          BRANCH_NAME: main
+          TIME_ZONE: Asia/Shanghai
+          EXCLUDE: html,css
+          THEME: github
+          ANIMATION: fade
+          DURATION: 1.2
+          AUTO_PUSH: true
