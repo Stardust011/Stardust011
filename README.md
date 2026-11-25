@@ -25,9 +25,10 @@
 
 ### `~/stats`
 
-<img width="100%" src="https://raw.githubusercontent.com/Stardust011/Stardust011/main/profile-summary-card-output/github/2-most-commit-language.svg" alt="Most used languages by commits" />
-
-<img width="100%" src="https://raw.githubusercontent.com/Stardust011/Stardust011/main/profile-summary-card-output/github/4-productive-time.svg" alt="Productive time" />
+<p>
+  <img width="49%" src="https://raw.githubusercontent.com/Stardust011/Stardust011/main/profile-summary-card-output/github/2-most-commit-language.svg" alt="Most used languages by commits" />
+  <img width="49%" src="https://raw.githubusercontent.com/Stardust011/Stardust011/main/profile-summary-card-output/github/4-productive-time.svg" alt="Productive time" />
+</p>
 
 <img width="100%" src="https://raw.githubusercontent.com/Stardust011/Stardust011/output/github-snake-dark.svg" alt="contribution snake" />
 
